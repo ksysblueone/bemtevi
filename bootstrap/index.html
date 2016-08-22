@@ -11,7 +11,7 @@
 
 <title>
   
-    Bootstrap &middot; The world's most popular mobile-first and responsive front-end framework.
+    Getting started &middot; Bootstrap
   
 </title>
 
@@ -39,17 +39,8 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" href="/favicon.ico">
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-146052-10', 'getbootstrap.com');
-  ga('send', 'pageview');
-</script>
-
   </head>
-  <body class="bs-docs-home">
+  <body>
     <a id="skippy" class="sr-only sr-only-focusable" href="#content"><div class="container"><span class="skiplink-text">Skip to main content</span></div></a>
 
     <!-- Docs master nav -->
@@ -62,168 +53,122 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="" class="navbar-brand">Bootstrap</a>
+      <a href="#" class="navbar-brand">Bemtevi Bootstrap</a>
     </div>
     <nav id="bs-navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li>
-          <a href="getting-started/">Getting started</a>
+        <li class="active">
+          <a href="#">Ponto de partida</a>
         </li>
         <li>
           <a href="css/">CSS</a>
         </li>
         <li>
-          <a href="components/">Components</a>
+          <a href="components/">Componentes</a>
         </li>
         <li>
           <a href="javascript/">JavaScript</a>
         </li>
-        <li>
-          <a href="customize/">Customize</a>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://expo.getbootstrap.com" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');">Expo</a></li>
-        <li><a href="http://blog.getbootstrap.com" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');">Blog</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 
-    <!-- Page content of course! -->
-    <main class="bs-docs-masthead" id="content" role="main" tabindex="-1">
-  <div class="container">
-    <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">B</span>
-    <p class="lead">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</p>
-    <p class="lead">
-      <a href="getting-started#download" class="btn btn-outline-inverse btn-lg" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download 3.3.5');">Download Bootstrap</a>
-    </p>
-    <p class="version">Currently v3.3.5</p>
-    <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script>var z = document.createElement("script"); z.async = true; z.src = "http://engine.carbonads.com/z/32341/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+    <!-- Docs page layout -->
+    <div class="bs-docs-header" id="content" tabindex="-1">
+      <div class="container">
+        <h1>Ponto de partida</h1>
+        <p>Uma visão geral do Bootstrap e conceitos básicos para iniciar um template padronizado.</p>
+        <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script>var z = document.createElement("script"); z.async = true; z.src = "http://engine.carbonads.com/z/32341/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
 
-  </div>
-</main>
-
-<div class="bs-docs-featurette">
-  <div class="container">
-    <h2 class="bs-docs-featurette-title">Designed for everyone, everywhere.</h2>
-    <p class="lead">Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.</p>
-
-    <hr class="half-rule">
-
-    <div class="row">
-      <div class="col-sm-4">
-        <img src="assets/img/sass-less.png" alt="Sass and Less support" class="img-responsive">
-        <h3>Preprocessors</h3>
-        <p>Bootstrap ships with vanilla CSS, but its source code utilizes the two most popular CSS preprocessors, <a href="css/#less">Less</a> and <a href="css/#sass">Sass</a>. Quickly get started with precompiled CSS or build on the source.</p>
-      </div>
-      <div class="col-sm-4">
-        <img src="assets/img/devices.png" alt="Responsive across devices" class="img-responsive">
-        <h3>One framework, every device.</h3>
-        <p>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</p>
-      </div>
-      <div class="col-sm-4">
-        <img src="assets/img/components.png" alt="Components" class="img-responsive">
-        <h3>Full of features</h3>
-        <p>With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.</p>
       </div>
     </div>
 
-    <hr class="half-rule">
+    <div class="container bs-docs-container">
 
-    <p class="lead">Bootstrap is open source. It's hosted, developed, and maintained on GitHub.</p>
-    <a href="https://github.com/twbs/bootstrap" class="btn btn-outline btn-lg">View the GitHub project</a>
-  </div>
+      <div class="row">
+        <div class="col-md-9" role="main">
+          
+<div class="bs-docs-section">
+  <h1 id="overview" class="page-header">Visão geral</h1>
+
+  <p class="lead">Conheça as principais peças da arquitetura do Bootstrap, incluindo nossos metodos para melhorar, agilizar e fortalecer o desenvolvimento web.</p>
+
+  <h2 id="overview-doctype">HTML5 doctype</h2>
+  <p>O <code>doctype</code> é obrigatório no início do documento para o funcionamento <strong>total</strong> do Bootstrap. Não necessariamente deva ter essa mesma estrutura abaixo, mas sua declaração é imprescindível.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"pt-BR"</span><span class="nt">&gt;</span>
+  ...
+<span class="nt">&lt;/html&gt;</span></code></pre></div>
+
+  <h2 id="overview-mobile">Mobile first</h2>
+  <p>O Bootstrap utiliza o conceito "Mobile First", ou seja, você desenha as telas, a interface primeiramente para versão mobile, como deve se comportar no celular, e após isso, para os demais dispositivos (tamanhos de telas).</p>
+  <p>Para o correto funcionamento do modo responsivo (principal característica do Bootstrap), deve-se ter certeza de que a meta tag <strong>viewport</strong> está definida e corretamente configurada entre as tags <code>&lt;head&gt;</code> do código.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span><span class="nt">&gt;</span></code></pre></div>
+  <p>Você pode desativar a ampliação do zoom em dispositivos móveis adicionando <code>user-scalable=no</code> na meta tag viewport. Isso desativa o zoom, ou seja, os usuários só são capazes de trabalhar com a barra de rolagem, e o resultado é que seu site ficará parecido com um aplicativo nativo. Entretanto, nós não recomendamos isso em todos os sites, por isso tome cuidado!</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"</span><span class="nt">&gt;</span></code></pre></div>
+
+  <h2 id="overview-container">Containers</h2>
+  <p>O Bootstrap requer um elemento que englobe o conteúdo das páginas, também para o funcionamento correto do seu sistema em grade. No Bemtevi utilizamos o <code>.container-fluid</code> e containers não podem ser aninhados.</p>
+  <p>Utilizando o <code>.container-fluid</code> ele ocupará toda a largura da página de acordo com o tamanho da tela e aplicará automaticamente as margens e enchimentos.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container-fluid"</span><span class="nt">&gt;</span>
+  ...
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+  <h2 id="template">Estrutura básica das páginas</h2>
+
+  <p>Copie o HTML abaixo para iniciar uma página com o html mínimo aplicado com as classes básicas de um documento Bootstrap.</p>
+  <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div <span class="na">id</span>=<span class="s">"conteudo"</span>&gt;</span>
+  <span class="nt">&lt;div <span class="na">class</span>=<span class="s">"container-fluid"</span>&gt;</span>
+    <span class="nt">&lt;div <span class="na">class</span>=<span class="s">"row"</span>&gt;</span>
+      <span class="nt">&lt;div <span class="na">class</span>=<span class="s">"col-md-12"</span>&gt;</span>
+        <span class="c">&lt;!-- Painel principal que engloba toda página --&gt;</span>
+        <span class="nt">&lt;div <span class="na">class</span>=<span class="s">"panel panel-primary"</span>&gt;</span>
+          <span class="c">&lt;!-- Cabeçalho com o título da página atual --&gt;</span>
+          <span class="nt">&lt;div <span class="na">class</span>=<span class="s">"panel-heading"</span>&gt;</span>
+            <span class="nt">&lt;span <span class="na">class</span>=<span class="s">"panel-title"</span>&gt;</span>Título da página<span class="nt">&lt;/span&gt;</span>
+          <span class="nt">&lt;/div&gt;</span>
+          
+          <span class="c">&lt;!-- Conteúdo da página --&gt;</span>
+          <span class="nt">&lt;div <span class="na">class</span>=<span class="s">"panel-body"</span>&gt;</span>
+            <span class="c">&lt;!--
+            ...
+            --&gt;</span>
+          <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- /.panel-body --&gt;</span>
+
+          <span class="c">&lt;!-- Rodapé da página com os botões de ação --&gt;</span>
+          <span class="nt">&lt;div <span class="na">class</span>=<span class="s">"panel-footer"</span>&gt;</span>
+            <span class="nt">&lt;button <span class="na">class</span>=<span class="s">"btn btn-primary"</span> <span class="na">type</span>=<span class="s">"submit"</span>&gt;</span>Salvar<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;a <span class="na">class</span>=<span class="s">"btn btn-link"</span> <span class="na">href</span>=<span class="s">"javascript:history.back()"</span>&gt;</span>Voltar<span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- /.panel-footer --&gt;</span>
+        <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- /.panel --&gt;</span>
+      <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- /.col-md-12 --&gt;</span>
+    <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- /.row --&gt;</span>
+  <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- /.container-fluid --&gt;</span>
+<span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- /#conteudo --&gt;</span></code></pre>
+        </div>
+
 </div>
-
-<div class="bs-docs-featurette">
-  <div class="container">
-    <h2 class="bs-docs-featurette-title">Built with Bootstrap.</h2>
-    <p class="lead">Millions of amazing sites across the web are being built with Bootstrap. Get started on your own with our growing <a href="getting-started/#examples">collection of examples</a> or by exploring some of our favorites.</p>
-
-    <hr class="half-rule">
-
-    <div class="row bs-docs-featured-sites">
-    
-      <div class="col-xs-6 col-sm-3">
-        <a href="http://expo.getbootstrap.com/2014/10/29/lyft/" target="_blank" title="Lyft">
-          <img src="http://expo.getbootstrap.com/thumbs/lyft-thumb.jpg" alt="Lyft" class="img-responsive">
-        </a>
-      </div>
-    
-      <div class="col-xs-6 col-sm-3">
-        <a href="http://expo.getbootstrap.com/2014/09/30/vogue/" target="_blank" title="Vogue">
-          <img src="http://expo.getbootstrap.com/thumbs/vogue-thumb.jpg" alt="Vogue" class="img-responsive">
-        </a>
-      </div>
-    
-      <div class="col-xs-6 col-sm-3">
-        <a href="http://expo.getbootstrap.com/2014/03/13/riot-design/" target="_blank" title="Riot Design">
-          <img src="http://expo.getbootstrap.com/thumbs/riot-thumb.jpg" alt="Riot Design" class="img-responsive">
-        </a>
-      </div>
-    
-      <div class="col-xs-6 col-sm-3">
-        <a href="http://expo.getbootstrap.com/2014/02/12/newsweek/" target="_blank" title="Newsweek">
-          <img src="http://expo.getbootstrap.com/thumbs/newsweek-thumb.jpg" alt="Newsweek" class="img-responsive">
-        </a>
-      </div>
-    
-    </div>
-
-    <hr class="half-rule">
-
-    <p class="lead">We showcase dozens of inspiring projects built with Bootstrap on the Bootstrap Expo.</p>
-    <a href="http://expo.getbootstrap.com" class="btn btn-outline btn-lg">Explore the Expo</a>
-  </div>
 </div>
+        
+        
+        </div>
+        
+      </div>
 
-
-    <!-- Footer
+<!-- Footer
 ================================================== -->
-<footer class="bs-docs-footer" role="contentinfo">
-  <div class="container">
-    <div class="bs-docs-social">
-  <ul class="bs-docs-social-buttons">
-    <li>
-      <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=twbs&amp;repo=bootstrap&amp;type=watch&amp;count=true" width="100" height="20" title="Star on GitHub"></iframe>
-    </li>
-    <li>
-      <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=twbs&amp;repo=bootstrap&amp;type=fork&amp;count=true" width="102" height="20" title="Fork on GitHub"></iframe>
-    </li>
-    <li class="follow-btn">
-      <a href="https://twitter.com/getbootstrap" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @getbootstrap</a>
-    </li>
-    <li class="tweet-btn">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://getbootstrap.com/" data-count="horizontal" data-via="getbootstrap" data-related="mdo:Creator of Bootstrap">Tweet</a>
-    </li>
-  </ul>
-</div>
-
-
-    <p>Designed and built with all the love in the world by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://twitter.com/fat" target="_blank">@fat</a>.</p>
-    <p>Maintained by the <a href="https://github.com/orgs/twbs/people">core team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
-    <p>Code licensed under <a rel="license" href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank">MIT</a>, documentation under <a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.</p>
-    <ul class="bs-docs-footer-links text-muted">
-      <li>Currently v3.3.5</li>
-      <li>&middot;</li>
-      <li><a href="https://github.com/twbs/bootstrap">GitHub</a></li>
-      <li>&middot;</li>
-      <li><a href="getting-started/#examples">Examples</a></li>
-      <li>&middot;</li>
-      <li><a href="2.3.2/">v2.3.2 docs</a></li>
-      <li>&middot;</li>
-      <li><a href="about/">About</a></li>
-      <li>&middot;</li>
-      <li><a href="http://expo.getbootstrap.com">Expo</a></li>
-      <li>&middot;</li>
-      <li><a href="http://blog.getbootstrap.com">Blog</a></li>
-      <li>&middot;</li>
-      <li><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
-      <li>&middot;</li>
-      <li><a href="https://github.com/twbs/bootstrap/releases">Releases</a></li>
-    </ul>
+<footer class="rodape" style="border-top: 1px solid #446CB3;padding-top:15px;background-color:rgba(255, 255, 255, 0.7)">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <p><a href="http://www.blueone.com.br" target="_blank" class="rodape2">BlueOne</a> - Bemtevi 2.0 &copy; Todos os direitos reservados.</p>
+      </div>
+      <div class="col-sm-6 text-right">
+        <p><i class="fa fa-quote-left"></i> Melhorar a vida das pessoas através do software. <i class="fa fa-quote-right"></i></p>
+      </div>
+    </div>
   </div>
 </footer>
 
@@ -255,6 +200,10 @@
 
 
 <script>
+<span class="nt">&lt;/html&gt;</span></code></pre></div>
+</div>
+
+
   window.twttr = (function (d,s,id) {
     var t, js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async=1;
